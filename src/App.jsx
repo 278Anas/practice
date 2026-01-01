@@ -7,6 +7,8 @@ import Form from "./component/controlled_component";
 import Skills from './component/checkbox';
 import Radio from './component/radiodropdown';
 import Map from './component/maploop';
+import UserData from './component/reusecompo';
+import Colleges from './component/nestedloop';
 
 function App() {
 
@@ -25,10 +27,12 @@ function App() {
     <>
       {/* <Counter/>
       <Input/> */}
-      <Form/>
+      {/* <Form/>
       <Skills/>
       <Radio/>
-      <Map/>
+      <Map/> */}
+      {/* <UserData/> */}
+      <Colleges/>
 
       {/* {student && <Student name={student}/>}
       <button onClick={()=>setStudent("Anas")}>Show Student</button> */}
